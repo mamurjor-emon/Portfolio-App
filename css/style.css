@@ -9998,3 +9998,23 @@ h6,
 	content: "\f102";
 	color: #0BCEAF;
 }
+.home-page__thumb-wrap {
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0, 2, 41, 0.08);
+	border-radius: 2rem;
+}
+.home-page__thumb {
+	height: 500px;
+	background-position: top;
+	transition: all 10s;
+	background-size: 100%;
+	border-radius: 15px;
+	border: 1px solid #EBEBEE;
+	background-repeat: no-repeat;
+}
+.home-page__thumb-wrap .home-page__thumb:hover {
+	background-position: bottom;
+}
+.home-page__thumb-title {
+	padding: 20px 15px;
+}
