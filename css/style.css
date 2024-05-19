@@ -2894,11 +2894,6 @@ fieldset:disabled a.btn {
   border-color: #343a40;
 }
 
-.btn-outline-dark:hover {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
-}
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
@@ -9771,14 +9766,15 @@ h6,
 }
 
 .back-to-top {
-  position: fixed;
-  display: none;
-  width: 30px;
-  text-align: center;
-  right: 30px;
-  bottom: 30px;
-  z-index: 11;
-  animation: action 1s infinite alternate;
+	position: fixed;
+	display: none;
+	width: 30px;
+	text-align: center;
+	right: 30px;
+	bottom: 30px;
+	z-index: 11;
+	animation: action 1s infinite alternate;
+  border: 1px solid #0BCEAF !important;
 }
 
 @keyframes action {
@@ -9997,4 +9993,8 @@ h6,
 }
 .fw-bolder{
   font-weight: 500 !important;
+}
+.fa-angle-double-up::before {
+	content: "\f102";
+	color: #0BCEAF;
 }
